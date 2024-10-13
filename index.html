@@ -4,15 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Select Messaging App</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h2>Select an app to continue:</h2>
+  <div class="card">
+    <h2>Select an app to continue:</h2>
 
-  <!-- Button for Telegram -->
-  <button onclick="openTelegram()">Continue in Telegram</button>
-  
-  <!-- Button for Viber -->
-  <button onclick="openViber()">Continue in Viber</button>
+    <!-- Telegram Button -->
+    <button class="button telegram" onclick="openTelegram()">Continue in Telegram</button>
+
+    <!-- Viber Button -->
+    <button class="button viber" onclick="openViber()">Continue in Viber</button>
+
+    <div class="footer">
+      <p>Powered by Your Website</p>
+    </div>
+  </div>
 
   <script>
     function openTelegram() {

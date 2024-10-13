@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Select Messaging App</title>
-  <style>
-    /* General Styles */
-   /* General Styles */
+/* General Styles */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f5f5f5;
@@ -28,6 +20,7 @@ body {
   width: 100%;
 }
 
+/* Header Styles */
 h2 {
   color: #333;
   font-size: 24px;
@@ -60,12 +53,9 @@ h2 {
   background-color: #59267c;
 }
 
+/* Footer Styles */
 .footer {
   margin-top: 20px;
   font-size: 12px;
   color: #777;
 }
-
-  </script>
-</body>
-</html>

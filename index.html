@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Messaging App</title>
+</head>
+<body>
+  <h2>Select an app to continue:</h2>
+
+  <!-- Button for Telegram -->
+  <button onclick="openTelegram()">Continue in Telegram</button>
+  
+  <!-- Button for Viber -->
+  <button onclick="openViber()">Continue in Viber</button>
+
+  <script>
+    function openTelegram() {
+      window.location.href = 'https://t.me/your_telegram_bot'; // Replace with your bot's Telegram link
+    }
+
+    function openViber() {
+      window.location.href = 'viber://pa?chatURI=your_viber_bot'; // Replace with your bot's Viber link
+    }
+  </script>
+</body>
+</html>
